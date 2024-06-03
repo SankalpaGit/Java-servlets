@@ -1,0 +1,79 @@
+body {
+    font-family: "Lato", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the form container */
+.form-container {
+    background-color:transparent; 
+    padding: 40px;
+    border-radius: 18px;
+    width: 350px;
+    margin-left: 30%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.623);
+}
+
+.form-container h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 4px;
+
+}
+
+.form-container input[type='text'],
+.form-container input[type='password'],
+.form-container input[type='email'] {
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+}
+
+
+.form-container input[type='submit'] {
+    padding: 15px;
+    border: 1px solid #ff7e5f;
+    border-radius: 14px;
+    background-color: #ff7e5f; 
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.form-container input[type='submit']:hover {
+    background-color: #ef9a58; 
+}
+
+.link-site{
+    text-align: center;
+}
+.link-site a{
+    color: blue;
+    font-weight: 600;
+}
+
+.alert-success{
+	background-color:black;
+	color: white;
+}
+
+.alert-danger{
+	background-color:black;
+	color:white;
+}

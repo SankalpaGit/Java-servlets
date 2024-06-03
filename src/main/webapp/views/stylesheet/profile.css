@@ -1,0 +1,109 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  padding: 4px 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3FC1C9;
+}
+
+.logo img {
+  height: 95px;
+}
+
+.icons a {
+  margin-left: 100px; /* Adjusted padding-left value */
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.profile {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.order-history {
+    flex: 1;
+}
+
+.profile-box, .order-history-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.edit-profile-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.edit-profile-btn:hover {
+    background-color: #45a049;
+}
+
+.user-details, .order-details {
+    margin-top: 20px;
+}
+
+.user-details p {
+    margin: 5px 0;
+}
+
+.user-details button, .order-details button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.user-details button:hover, .order-details button:hover {
+    background-color: #d32f2f;
+}
+
+.order-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-id {
+    font-weight: bold;
+}
+
+.status {
+    color: #4CAF50;
+}
+
+.remove-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.remove-button:hover {
+    background-color: #d32f2f;
+}

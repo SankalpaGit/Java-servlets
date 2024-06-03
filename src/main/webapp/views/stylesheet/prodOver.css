@@ -1,0 +1,153 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    padding: 4px 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #3FC1C9;
+}
+
+.logo img {
+    height: 95px;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: white;
+    width: 500px;
+    margin-left: 90px;
+}
+
+.S_text {
+    height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 2cm;
+    width: 100%;
+}
+
+.S_btn {
+    border: none;
+    height: 40px;
+    padding: 12px;
+    border-radius: 50%;
+    color: black;
+    margin-left: 10px; /* Adjusted margin-left value */
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+}
+
+.filter {
+    background: none;
+    position: relative;
+    right: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+.icons a {
+    margin-left: 100px; /* Adjusted padding-left value */
+}
+
+nav {
+    background-color: #005794;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+
+nav ul li a:hover {
+    background-color: #56d5da;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.outer-containers {
+    display: flex;
+    height: 470px;
+    width: 80%;
+    margin-top: 17%;
+    margin: 0 auto; /* Center the container horizontally */
+    padding:40px;
+}
+
+.imagesProduct {
+    height: 100%; /* Adjust height as needed */
+    width: 40%; /* Adjust width as needed */
+    margin-right: 20px; /* Adding some spacing between image and other details */
+    overflow: hidden; /* Hide any overflow to prevent stretching */
+    border: 1px solid #ccc; /* Optional: Add border for visual clarity */
+}
+
+.imagesProduct img {
+    width: 100%; /* Ensuring the image takes full width of its container */
+    height: 100%; /* Ensuring the image takes full height of its container */
+    object-fit: contain; /* Ensuring the image fits completely inside the container */
+    object-position: center; /* Centering the image within the container */
+}
+
+.product-details {
+    flex: 1; /* Taking up remaining space */
+    margin-top: 15%;
+}
+
+.product-details h2 {
+    margin-top: 0;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.cartButton,
+.buyButton {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #FFA500; /* Orange */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cartButton:hover,
+.buyButton:hover {
+    background-color: #FF8C00; /* Darker Orange */
+}
+
+.buyButton {
+    background-color: #4CAF50; /* Green */
+}

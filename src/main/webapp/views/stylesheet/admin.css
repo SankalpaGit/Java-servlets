@@ -1,0 +1,193 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 250px;
+    height: 100vh; /* Set sidebar height to full viewport height */
+    background-color: #3FC1C9;
+    color: #fff;
+    position: fixed; /* Set sidebar position to fixed */
+  }
+  
+  .logo {
+    height: 110px;
+    line-height: 50px;
+    object-fit: cover;
+    margin-top: 10%;
+  }
+  .logo img{
+    height: 100%;
+    width: 100%;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    padding: 10px;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+  
+  .logout-btn {
+    padding: 15px 80px;
+    background-color: #df1919;
+    color: #fff;
+    border: none;
+    margin-top: 140%;
+    margin-left: 10%;
+    font-weight: 500;
+  }
+  
+  /* Content area styles */
+  .content {
+    margin-left: 250px; /* Ensure content area doesn't overlap with sidebar */
+    padding: 20px;
+  }
+  
+  .container {
+    width: 70%;
+    height: max-content;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.6); /* Shadow */
+    padding: 20px; /* Padding inside the container */
+    margin:auto;
+  }
+  
+  .container h2 {
+    margin-top: 0; /* Remove default margin */
+  }
+  
+  .container form input[type="text"],
+  .container form input[type="number"],
+  .container form textarea {
+    width: 100%;
+    margin-bottom: 10px; /* Add spacing between input fields */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure that padding and border are included in the element's total width and height */
+  }
+  
+  .container form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #309ba1; 
+    color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+  }
+  
+  .container form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  
+.view-products {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table header */
+.view-products th {
+    background-color: #309ba1; /* Color for table header */
+    color: #fff;
+    padding: 10px; /* Add padding to header cells */
+    text-align: left;
+     border: 1px solid #ccc;
+}
+
+/* Style for table rows */
+.view-products .productRow {
+    border-bottom: 1px solid #ccc; /* Add border-bottom to separate rows */
+}
+
+/* Style for table data cells */
+.view-products td {
+    padding: 10px; /* Add padding to data cells */
+    text-align: left;
+    vertical-align: middle; /* Align content vertically in the middle */
+    border: 1px solid #ccc;
+}
+
+/* Style for product image cells */
+.view-products .admin-prodImg {
+    width: 50px; /* Set width to 50 pixels */
+    height: 50px; /* Set height to 50 pixels */
+    padding: 10px; /* Remove any padding */
+	 border: 1px solid #ccc;
+}
+
+/* Style for product images */
+.view-products img {
+    width: 100%; /* Make the image fill the entire cell */
+    height: 100%; /* Make the image fill the entire cell */
+    object-fit: cover; /* Ensure the entire image is visible */
+}
+
+/* Style for action buttons */
+/* Common style for both edit and delete buttons */
+.edit, .delete {
+    padding: 5px 10px; /* Add padding to buttons */
+    margin-right: 5px; /* Add some spacing between buttons */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style for edit button */
+.edit {
+    background-color: #4CAF50; /* Green */
+}
+
+/* Style for delete button */
+.delete {
+    background-color: #E52920; /* Red */
+}
+
+
+/* Style for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space between tables */
+}
+
+/* Style for table headers */
+table th {
+    background-color: #309ba1; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px; /* Padding around header cells */
+    text-align: left; /* Align header text to the left */
+    border: 1px solid #ddd; /* Add border to header cells */
+}
+
+/* Style for table data cells */
+table td {
+    padding: 10px; /* Padding around data cells */
+    border: 1px solid #ddd; /* Add border to data cells */
+}
+
+/* Style for alternating table rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+/* Optional: Style for table section headings */
+h2 {
+    margin-top: 20px; /* Add some space above each section heading */
+    margin-bottom: 10px; /* Add some space below each section heading */
+}
