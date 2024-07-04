@@ -12,9 +12,7 @@ import controller.DatabaseController;
 import model.product;
 import util.stringUtils;
 
-/**
- * Servlet implementation class ProductDetailServlet
- */
+
 @WebServlet("/ProductDetailServlet")
 public class ProductDetailServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
