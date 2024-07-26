@@ -24,7 +24,7 @@ public class stringUtils {
 	+ "(userId, productImage, productId, productName, quantity, price)"
 	+ "VALUES (?, ?, ?, ?, ?, ?)";
 	
-	//SQL Query for isderting the value in the product table
+	//SQL Query for inserting the value in the product table
 	//Below is the name of attributr of the db product table column name
 	 public static final String INSERT_PRODUCT = "INSERT INTO product "
 	 + "(name, brand, price, description, stock, productImageUrl, RAM, ROM, processor)"+" VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
